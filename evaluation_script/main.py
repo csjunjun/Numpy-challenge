@@ -145,11 +145,11 @@ def evaluate(test_annotation_file, user_submission_file, phase_codename, **kwarg
         output["result"] = [
             {
                 "train_split": {
-                    # "Metric1": random.randint(0, 99),
-                    # "Metric2": random.randint(0, 99),
-                    # "Metric3": random.randint(0, 99),
-                    # "Total": random.randint(0, 99),
-                    "Accuracy":test_accurate
+                    "Metric1": test_accurate,
+                    "Metric2": random.randint(0, 99),
+                    "Metric3": random.randint(0, 99),
+                    "Total": random.randint(0, 99),
+                    #"Accuracy":test_accurate
                 }
             }
         ]
@@ -161,20 +161,20 @@ def evaluate(test_annotation_file, user_submission_file, phase_codename, **kwarg
         output["result"] = [
             {
                 "train_split": {
-                    # "Metric1": random.randint(0, 99),
-                    # "Metric2": random.randint(0, 99),
-                    # "Metric3": random.randint(0, 99),
-                    # "Total": random.randint(0, 99),
-                    "Accuracy":test_accurate
+                    "Metric1": test_accurate,
+                    "Metric2": random.randint(0, 99),
+                    "Metric3": random.randint(0, 99),
+                    "Total": random.randint(0, 99),
+                    #"Accuracy":test_accurate
                 }
             },
             {
                 "test_split": {
-                    # "Metric1": random.randint(0, 99),
-                    # "Metric2": random.randint(0, 99),
-                    # "Metric3": random.randint(0, 99),
-                    # "Total": random.randint(0, 99),
-                    "Accuracy":test_accurate
+                    "Metric1": test_accurate,
+                    "Metric2": random.randint(0, 99),
+                    "Metric3": random.randint(0, 99),
+                    "Total": random.randint(0, 99),
+                    #"Accuracy":test_accurate
                 }
             },
         ]
