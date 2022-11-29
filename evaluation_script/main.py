@@ -113,6 +113,7 @@ def evaluate(test_annotation_file, user_submission_file, phase_codename, **kwarg
         "test": transforms.Compose([transforms.Resize((64, 64)), 
                                    transforms.ToTensor(),
                                    transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))])}
+    
     image_path = os.path.abspath(os.path.join(os.getcwd(), "Augtest"))  # get data root path
     assert os.path.exists(image_path), "{} path does not exist.".format(image_path)
     test_dataset = datasets.ImageFolder(image_path,
