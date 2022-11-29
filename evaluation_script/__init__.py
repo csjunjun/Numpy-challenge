@@ -39,6 +39,4 @@ install("torch==1.13.0")
 
 #install_local_package("package_folder_name")
 
-
-
-from .main import evaluate
+#from .main import evaluate
