@@ -32,12 +32,12 @@ def install_local_package(folder_name):
         os.path.join(str(Path(__file__).parent.absolute()) + folder_name),
     ]
 )
-
-install("shapely==1.7.1")
-install("requests==2.25.1")
-
-install_local_package("package_folder_name")
-
 install("torch")
+#install("shapely==1.7.1")
+#install("requests==2.25.1")
+
+#install_local_package("package_folder_name")
+
+
 
 from .main import evaluate
