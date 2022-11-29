@@ -1,4 +1,4 @@
-"""
+
 # Q. How to install custom python pip packages?
 
 # A. Uncomment the below code to install the custom python packages.
@@ -38,6 +38,6 @@ install("requests==2.25.1")
 
 install_local_package("package_folder_name")
 
-"""
+install("torch")
 
 from .main import evaluate
