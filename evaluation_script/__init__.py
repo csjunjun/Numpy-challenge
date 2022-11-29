@@ -33,7 +33,7 @@ def install_local_package(folder_name):
     ]
 )
 print("begin install torch")
-install("torch==1.13.0")
+install("torch==1.7.0")
 #install("shapely==1.7.1")
 #install("requests==2.25.1")
 
